@@ -1,11 +1,11 @@
 ---
-title: "An example preprint / working paper"
+title: "Ssl framework for causal inconsistency between structures and representations"
 authors:
-- me
+- Hang Chen, Xinyu Yang, Keqing Du, Wenya Wang
 date: "2019-04-07T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2025-01-04T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -16,24 +16,23 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: The cross-pollination of deep learning and causal discovery has catalyzed a burgeoning field of research seeking to elucidate causal relationships within non-statistical data forms like images, videos, and text. Such data, often being named `indefinite data', exhibit unique challenges-inconsistency between causal structure and representation, which are not common in conventional data forms. To tackle this issue, we theoretically develop intervention strategies suitable for indefinite data and derive causal consistency condition (CCC). Moreover, we design a self-supervised learning (SSL) framework that considers interventions as `views' and CCC as a `philosophy' with two implement examples on Supervised Specialized Models (SSMs) and Large Language Models (LLMs), respectively. To evaluate pure inconsistency manifestations, we have prepared the first high-quality causal dialogue dataset-Causalogue. Evaluations are also performed on three other downstream tasks. Extensive experimentation has substantiated the efficacy of our methodology, illuminating how CCC could potentially play an influential role in various fields.
 
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Large Language Models
+- Causal Consistency
+- SSL
 
-featured: true
+featured: false
 
 hugoblox:
   ids:
-    arxiv: 1512.04133v1
+    arxiv: 2310.18634
 
 links:
 - type: preprint
   provider: arxiv
-  id: 1512.04133v1
+  id: 2310.18634
 - type: code
   url: https://github.com/HugoBlox/kit
 - type: slides
@@ -72,10 +71,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-This work is driven by the results in my [previous paper](/publications/conference-paper/) on LLMs.
-
-> [!NOTE]
-> Create your slides in Markdown - click the *Slides* button to check out the example.
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).

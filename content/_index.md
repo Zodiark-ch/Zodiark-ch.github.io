@@ -1,13 +1,13 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ''
+title: "Hang Chen (Zodiark)"
 summary: ''
 date: 2022-10-24
 type: landing
 
 design:
   # Default section spacing
-  spacing: '6rem'
+  spacing: '8rem'
 
 sections:
   - block: resume-biography-3
@@ -35,20 +35,31 @@ sections:
 
       # Avatar customization
       avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
+        size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        shape: rounded # Options: circle (default), square, rounded
   - block: markdown
     content:
       title: '📚 My Research'
-      subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+        <style>
+          /* 精准定位这个 section 下所有限制宽度的容器 */
+          #section-markdown .max-w-prose {
+            max-width: none !important;
+            width: 65% !important;
+          }
+          /* 如果你想让文字完全左对齐而不是居中，取消下面的注释 */
+          /*
+          #section-markdown .items-center {
+            align-items: flex-start !important;
+          }
+          */
+        </style>
+        My research encompasses a broad spectrum of **language models**, centered on how these models construct and utilize **causal mechanisms**. 
+        In my earlier work, I investigated methods to endow LLM representations with **causal discrimination** and explored the phenomenon of **causal emergence** within these complex architectures. 
+        Currently, my focus has shifted toward **Mechanistic Interpretability (MI)**. I am particularly interested in the intersection of MI and **parameter updating** (such as SFT). My goal is to leverage mechanistic insights—identifying specific functional circuits—to guide more precise, surgical, and interpretable modifications to model behavior. By bridging these two fields, I aim to transform LLMs from "black boxes" into transparent systems that can be reliably controlled and updated for trusted applications. 😃
     design:
-      columns: '1'
+      columns: 1
+      css_class: max-w-none
   - block: collection
     id: papers
     content:
@@ -70,15 +81,6 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
   - block: collection
     id: news
     content:
