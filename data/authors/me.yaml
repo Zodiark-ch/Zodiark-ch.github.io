@@ -12,21 +12,17 @@ postnominals:
   - PhD
 status:
   icon: "💪"
-role: PhD student in Xi'an Jiaotong University
+role: Postdoctoral Research Fellow at Nanyang Technological University
 bio: |
-  Hang Chen is a Ph.D. student in the School of Computer Science and Technology at Xi'an Jiaotong University, 
-  where he is expected to complete his studies in March 2026. His research primarily focuses on the 
-  mechanistic interpretability and causality capability of Large Language Models (LLMs), and its applications in parameter updating. 
-  He aims to develop methodologies that allow for the causal intervention or modification of model behaviors based on a 
-  fundamental understanding of their internal mechanisms.
+  Hang Chen received his Ph.D. from the Faculty of Electronic and Information Engineering at Xi'an Jiaotong University in March 2026. In June 2026, he joined the College of Computing & Data Science (CCDS) at Nanyang Technological University (NTU) as a Postdoctoral Research Fellow, working with Prof. [Wenya Wang](https://personal.ntu.edu.sg/wangwy/). His research is rooted in causal representation and structural analysis in machine learning. Recently, his focus has shifted towards applying the mechanistic interpretability of Large Language Models (LLMs) to guide and control post-training processes, such as Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL).
 
 affiliations:
-  - name: Xi'an Jiaotong University (albert2123@stu.xjtu.edu.cn)
-    url: https://www.xjtu.edu.cn/
+  - name: College of Computing & Data Science, Nanyang Technological University
+    url: https://www.ntu.edu.sg/
 
 links:
   - icon: at-symbol
-    url: albert2123@stu.xjtu.edu.cn
+    url: 'mailto:chen.hang@ntu.edu.sg'
     label: E-mail Me
   - icon: brands/x
     url: https://x.com/example
@@ -46,14 +42,14 @@ interests:
   - Sentiment Analysis
 
 education:
-  - degree: PhD Computer Science
+  - degree: Ph.D. in Computer Science
     institution: Xi'an Jiaotong University
     start: 2021-09-01
-    end: 2026-03-30 
-  - degree: BS Computer Science
+    end: 2026-03-30
+  - degree: B.S. in Computer Science
     institution: Xi'an Jiaotong University
     start: 2016-09-01
-    end: 2020-06-31
+    end: 2020-06-30
 
 experience:
   - role: Research Scientist
