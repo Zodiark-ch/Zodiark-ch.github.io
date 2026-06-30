@@ -11,9 +11,11 @@ on:
         options:
         - Stable
         - Beta (Preview)
-  schedule:
-    # Run at 05:00 on Monday
-    - cron: '0 5 * * 1'
+  # Scheduled auto-upgrade disabled (was failing every week).
+  # To re-enable, uncomment the schedule below.
+  # schedule:
+  #   # Run at 05:00 on Monday
+  #   - cron: '0 5 * * 1'
 
 permissions:
   contents: write
