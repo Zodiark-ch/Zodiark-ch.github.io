@@ -18,7 +18,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: uploads/Hang_Chen_CV_EN.pdf
       headings:
         about: ''
         education: ''
@@ -54,9 +54,9 @@ sections:
           }
           */
         </style>
-        My research encompasses a broad spectrum of **language models**, centered on how these models construct and utilize **causal mechanisms**. 
-        In my earlier work, I investigated methods to endow LLM representations with **causal discrimination** and explored the phenomenon of **causal emergence** within these complex architectures. 
-        Currently, my focus has shifted toward **Mechanistic Interpretability (MI)**. I am particularly interested in the intersection of MI and **parameter updating** (such as SFT). My goal is to leverage mechanistic insights—identifying specific functional circuits—to guide more precise, surgical, and interpretable modifications to model behavior. By bridging these two fields, I aim to transform LLMs from "black boxes" into transparent systems that can be reliably controlled and updated for trusted applications. 😃
+        My research focuses on making **Mechanistic Interpretability (MI)** practically useful for **LLM post-training**: integrating interpretability with **SFT** and **RL**, and using mechanistic analysis to diagnose and guide post-training.
+        Representative questions include identifying **conflicts** when fine-tuning on multiple tasks, **anticipating a model's post-SFT mechanisms before training**, and using **interpretability signals to supervise fine-tuning**.
+        Previously, I worked on **causal mechanisms** of language models, mathematical models of **emergence**, and downstream tasks such as **affective reasoning**. 😃
     design:
       columns: 1
       css_class: max-w-none

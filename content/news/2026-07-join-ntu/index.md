@@ -1,6 +1,6 @@
 ---
 title: "Starting a New Chapter: Joining NTU CCDS as a Postdoc!"
-date: 2026-06-15
+date: 2026-07-01
 authors:
   - me
 image:

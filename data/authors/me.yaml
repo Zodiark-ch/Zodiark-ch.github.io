@@ -14,7 +14,9 @@ status:
   icon: "💪"
 role: Postdoctoral Research Fellow at Nanyang Technological University
 bio: |
-  Hang Chen received his Ph.D. from the Faculty of Electronic and Information Engineering at Xi'an Jiaotong University in March 2026. In June 2026, he joined the College of Computing & Data Science (CCDS) at Nanyang Technological University (NTU) as a Postdoctoral Research Fellow, working with Prof. [Wenya Wang](https://personal.ntu.edu.sg/wangwy/). His research is rooted in causal representation and structural analysis in machine learning. Recently, his focus has shifted towards applying the mechanistic interpretability of Large Language Models (LLMs) to guide and control post-training processes, such as Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL).
+  Hang Chen received his Ph.D. from the Faculty of Electronic and Information Engineering at Xi'an Jiaotong University in March 2026. In July 2026, he joined the College of Computing & Data Science (CCDS) at Nanyang Technological University (NTU) as a Postdoctoral Research Fellow, working with Prof. [Wenya Wang](https://personal.ntu.edu.sg/wangwy/). His research is rooted in causal representation and structural analysis in machine learning. Recently, his focus has shifted towards applying the mechanistic interpretability of Large Language Models (LLMs) to guide and control post-training processes, such as Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL).
+
+  📄 CV: [English](/uploads/Hang_Chen_CV_EN.pdf) | [中文](/uploads/Hang_Chen_CV_ZH.pdf)
 
 affiliations:
   - name: College of Computing & Data Science, Nanyang Technological University
@@ -36,8 +38,9 @@ links:
     url: https://orcid.org/my-orcid?orcid=0000-0002-9141-174X
 
 interests:
-  - Large Language Models
   - Mechanistic Interpretability
+  - Post-training
+  - Large Language Models
   - Causality
   - Sentiment Analysis
 
